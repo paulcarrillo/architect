@@ -1,0 +1,50 @@
+body {
+
+}
+
+nav {
+  width: auto;
+  float: right;
+  font-size: 15px;
+  letter-spacing: 4px;
+  line-height: 22.5px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.top a {
+  text-decoration: none;
+}
+
+.top {
+  height: 54px;
+  display: block;
+  padding: 8px 16px;
+}
+.top_br {
+  float: left;
+  display: block;
+  cursor: pointer;
+  padding: 8px 16px;
+  vertical-align: middle;
+  letter-spacing: 4px;
+}
+
+b {
+  font-weight: bold;
+  text-align: center;
+}
+
+header {
+  max-width: 1500px;
+  height: 135px;
+  background-color: red;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: -5px;
+}
