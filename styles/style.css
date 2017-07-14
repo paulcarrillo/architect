@@ -83,6 +83,64 @@ h2 {
   padding: 16px 0;
 }
 
-.row_1, .row_2 {
+.row_1 p, .row_2 p {
   display: block;
+  font-size: 15px;
+  line-height: 22.5px;
+  padding: 8px 16px;
+  position: absolute;
+  background-color: black;
+  color: white;
+}
+
+div.gallery {
+  margin: 5px;
+  float: left;
+  margin-left: 45px;
+}
+div.gallery img {
+  width: 300px;
+  height: 200px;
+}
+
+.content {
+  float: right;
+}
+
+/*********************** About **************************/
+h3 {
+  display: block;
+  font-size: 24px;
+  line-height: 36px;
+  margin: 10px 0;
+  padding: 16px 0;
+}
+
+.content {
+  font-size: 17px;
+}
+
+.about p {
+  display: block;
+}
+
+div.gallery_2 {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+}
+
+div.gallery_2 img {
+  width: 300px;
+  height: 200px;
+}
+
+div.desc {
+  text-align: center;
+  padding: 15px;
+}
+
+.final {
+  float: right;
+  position: center;
 }
